@@ -1,0 +1,36 @@
+.menu{
+    background-color: black;
+    display: flex;
+    padding: 10px;
+    list-style: none;
+}
+.menu a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 15px;
+}
+.menu a:hover{
+    background-color: rgb(120, 120, 120);
+}
+*{
+    margin:0;
+    padding:0;
+}
+.logo{
+    height: 600px;
+    background-image:url('../images/aleksandr.jpg');
+    background-size: cover;
+    text-align:center;
+}
+.logo h1{
+    color: white;
+    font-size: 70px;
+    padding-top: 140px;
+}
+.logo p{
+    padding-top: 90px;
+    font-size: 28px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+
+}
