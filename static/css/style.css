@@ -32,5 +32,20 @@
     font-size: 28px;
     color: white;
     text-shadow: 2px 2px 2px black;
-
+}
+.about{
+    background-color: black;
+    color:white;
+    font-size:25px;
+    text-align:justify;
+    text-indent:30px;
+    line-height:40px;
+    padding:50px 30px;
+}
+footer{
+    background-color: black;
+    color:white;
+    font-size:15px;
+    text-align:center;
+    padding:30px;
 }

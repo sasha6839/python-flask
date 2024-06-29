@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Rediscover the world</title>
+    <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class='menu'>
+                <li><a href="/">Main</a></li>
+                <li><a href="/Explore">Interesting place</a></li>
+                <li><a href="/login">Login</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/details">details</a></li>
+                <li><a href="/articles">articles</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    {% block content %} ??? {% endblock %}
+
+
+
+    <footer>
+        <p>Copyright � 1999-2020 Ctrip.com (Hong Kong) Limited. All rights reserved.
+        Site Operator: Ctrip.com (Hong Kong) Limited<br>
+        Hong Kong Travel License No. 352367</p>
+    </footer>
+</body>
+</html>
