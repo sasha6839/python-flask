@@ -2,6 +2,19 @@
     margin: 0;
     padding: 0;
 }
+body{
+    background-color:black;
+    color:white;
+}
+/* --- header ---*/
+header{
+    display:flex;
+    justify-content:space-between;
+}
+.welcome_user{
+    padding: 5px 20px;
+    font-size: 20px;
+}
 /* --- menu --- */
 .menu {
     background-color: black;
@@ -88,4 +101,10 @@ footer{
     font-size: 15px;
     text-align: center;
     padding: 30px;
+}
+.articles-rr{
+    font-size:50px;
+    display:flex;
+    justify-content:center;
+    padding-top:30%;
 }
