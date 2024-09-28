@@ -1,20 +1,18 @@
-*{
-    margin: 0;
-    padding: 0;
-}
 body{
-    background-color:black;
-    color:white;
+	background-color: black;
+	color: white;
 }
-/* --- header ---*/
+
+/* --- header --- */
 header{
-    display:flex;
-    justify-content:space-between;
+    display: flex;
+    justify-content: space-between;
 }
 .welcome_user{
-    padding: 5px 20px;
+    padding: 0 20px;
     font-size: 20px;
 }
+
 /* --- menu --- */
 .menu {
     background-color: black;
@@ -33,9 +31,7 @@ header{
     background-color: rgb(100,100,100);
 }
 
-/* --- main --- */
-
-/* --- logo --- */
+/* --- index-file --- */
 .logo {
     height: 650px;
     background-image: url('../images/aleksandr.jpg');
@@ -52,7 +48,6 @@ header{
     padding-top: 90px;
     font-size: 30px;
 }
-
 .about{
     background-color: black;
     color: white;
@@ -63,19 +58,35 @@ header{
     padding: 80px 30px;
 }
 
+
 /* --- articles --- */
 
  .logo_articles{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 600px;
     background-image: url('../images/tunel.jpg');
     background-size: cover;
     text-align: center;
 }
+.logo_articles h1{
+    font-size: 40px;
+    text-transform: uppercase;
+}
 .link{
     color: white;
 }
+.add-article textarea{
+    width:100%;
+}
 
-/* --- Login --- */
+/* --- about-file --- */
+.about-page h1{
+    text-align:center;
+}
+
+/* --- login-file --- */
 
 form{
 	margin: 50px;
@@ -101,10 +112,4 @@ footer{
     font-size: 15px;
     text-align: center;
     padding: 30px;
-}
-.articles-rr{
-    font-size:50px;
-    display:flex;
-    justify-content:center;
-    padding-top:30%;
 }

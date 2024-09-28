@@ -11,6 +11,7 @@
         <title>Rediscover the world</title>
     {% endif %}
 
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/min-normalize.css') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 </head>
 <body>
@@ -30,16 +31,12 @@
         </div>
     </header>
     <main>
-
-        {% block content %}{% endblock %}
-
+        {% block main %}{% endblock %}
     </main>
     <footer>
-        <p>Copyright © 1999-2020 Ctrip.com (Hong Kong) Limited. All rights reserved.
-            Site Operator: Ctrip.com (Hong Kong) Limited
-            Hong Kong Travel License No. 352367</p>
+        <p>Copyright © 1999-2024 Ctrip.com (Kamianets-Podilskyi) Limited. All rights reserved. <br>
+            Site Operator: Ctrip.com (Kamianets-Podilskyi) Limited <br>
+            Kamianets-Podilskyi Travel License No. 352367</p>
     </footer>
 </body>
-
-
 </html>
